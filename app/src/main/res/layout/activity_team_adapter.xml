@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:padding="3dp"
+    tools:context="msk.csgoprosconfig.TeamAdapter"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/idTeamImg"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:src="@drawable/sklogo" />
+
+    <TextView
+        android:id="@+id/idTeamName"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:maxLines="1"
+        android:text="@string/team_sk"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+</LinearLayout>

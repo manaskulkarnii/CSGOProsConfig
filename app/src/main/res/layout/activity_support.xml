@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#eaf5f8">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idSupportActivity_toolbar"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/idTradeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Support_tradeInfoText"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/idTradeLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Support_tradeLinkText"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/idTradeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Support_tradeButton"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
