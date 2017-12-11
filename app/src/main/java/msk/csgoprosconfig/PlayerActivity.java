@@ -1,7 +1,5 @@
 package msk.csgoprosconfig;
 
-import android.app.DownloadManager;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,11 +15,11 @@ import java.util.List;
 
 public class PlayerActivity extends AppCompatActivity {
 
+    List<PlayerModel> mPlayerModelData;
+    Integer teamPosi;
     private ListView mListView;
     private PlayerAdapter mPlayerAdapter;
-    List<PlayerModel> mPlayerModelData;
     private Toolbar mToolbarTeamName;
-    Integer teamPosi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,7 +126,7 @@ public class PlayerActivity extends AppCompatActivity {
                 break;
             case 5: //NiP
                 String[] envyusNames = getResources().getStringArray(R.array.NiP);
-                int[] envyusImages={R.drawable.forest,R.drawable.getright,R.drawable.friberg,R.drawable.xizt,R.drawable.draken};
+                int[] envyusImages = {R.drawable.forest, R.drawable.getright, R.drawable.rez, R.drawable.xizt, R.drawable.draken};
                 for (int i = 0; i < envyusNames.length; i++) {
                     PlayerModel model = new PlayerModel(envyusImages[i],envyusNames[i]);
                     mPlayerModelData.add(model);
@@ -158,7 +156,7 @@ public class PlayerActivity extends AppCompatActivity {
                 break;
             case 8: //Cloud9
                 String[] virtusproNames = getResources().getStringArray(R.array.Cloud9);
-                int[] virtusproImages={R.drawable.nothing,R.drawable.shroud,R.drawable.skadoodle,R.drawable.stewie2k,R.drawable.autimatic};
+                int[] virtusproImages = {R.drawable.tarik, R.drawable.rush, R.drawable.skadoodle, R.drawable.stewie2k, R.drawable.autimatic};
                 for (int i = 0; i < virtusproNames.length; i++) {
                     PlayerModel model = new PlayerModel(virtusproImages[i],virtusproNames[i]);
                     mPlayerModelData.add(model);

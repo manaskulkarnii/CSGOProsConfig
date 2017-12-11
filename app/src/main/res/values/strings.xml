@@ -53,7 +53,7 @@
     <string-array name="NiP">
         <item>Forest</item>
         <item>Get_right</item>
-        <item>Frieberg</item>
+        <item>REZ</item>
         <item>Xizt</item>
         <item>Draken</item>
     </string-array>
@@ -72,13 +72,15 @@
         <item>Byali</item>
     </string-array>
     <string-array name="Cloud9">
-        <item>Nothing</item>
-        <item>Shroud</item>
+        <item>tarik</item>
+        <item>RUSH</item>
         <item>Skadoodle</item>
         <item>Stewie2k</item>
         <item>Autimatic</item>
     </string-array>
 
+
+    <!--SK-->
     <string-array name="Fallen">
         <item>Zowie EC1-A</item>
         <item>HyperX Alloy FPS</item>
@@ -140,7 +142,7 @@
         <item>https://drive.google.com/open?id=1yV7ynYEa1ExuKlglBqW84PsQjCDFrZaS</item>
     </string-array>
 
-
+    <!--NaVi-->
     <string-array name="Simple">
         <item>Zowie ZA13</item>
         <item>HyperX Alloy FPS Pro</item>
@@ -202,7 +204,7 @@
         <item>https://drive.google.com/open?id=1cUB6wB4VfrZCFaATQMF0-ts0T9KZBq7J</item>
     </string-array>
 
-
+    <!--Fnatic-->
     <string-array name="Golden">
         <item>Zowie VQ248QE</item>
         <item>Fnatic Gear Rush G1</item>
@@ -264,7 +266,7 @@
         <item>https://drive.google.com/open?id=19PGIIGV4zVqKzHNEgFBd6YqZi_JBSiaA</item>
     </string-array>
 
-
+    <!--Astralis-->
     <string-array name="Xyp9x">
         <item>Zowie FK2</item>
         <item>Logitech G610</item>
@@ -326,5 +328,317 @@
         <item>https://drive.google.com/open?id=17iYJsQqgAkD1sk8IfP5hTveMhuHoUr4W</item>
     </string-array>
 
+    <!--G2-->
+    <string-array name="Shox">
+        <item>Zowie FK1</item>
+        <item>Logitech G413</item>
+        <item>HyperX Cloud Alpha</item>
+        <item>Logitech G640</item>
+        <item>BenQ XL2411T</item>
+        <item>1024x768</item>
+        <item>Black bars</item>
+        <item>2.25</item>
+        <item>400</item>]
+        <item>https://drive.google.com/open?id=1PTxxyI8M3UPrF1-wBWsjd8PKUZVVFHp9</item>
+    </string-array>
+    <string-array name="NBK">
+        <item>Logitech G900 Wireless</item>
+        <item>Logitech G Pro</item>
+        <item>HyperX Cloud Alpha</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2410T</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>1</item>
+        <item>800</item>
+        <item>https://drive.google.com/open?id=13vCWe1_Km-roQtuSVtYf2WiFSNyS2g5Z</item>
+    </string-array>
+    <string-array name="KennyS">
+        <item>Razor DeathAdder Elite</item>
+        <item>Xtrfy K2-RGB</item>
+        <item>HyperX Cloud Alpha</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2411Z</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>2.2</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1hv874-_JJAnlJFvOwruKuwG66ocaFKUj</item>
+    </string-array>
+    <string-array name="Apex">
+        <item>Zowie EC2-A</item>
+        <item>Xtrfy K2-RGB</item>
+        <item>HyperX Cloud Alpha</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2411Z</item>
+        <item>1600x900</item>
+        <item>Native</item>
+        <item>1.91</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1XcFOfV6cLq8hmHi6z7V4iHlhRosdgnst</item>
+    </string-array>
+    <string-array name="Bodyy">
+        <item>Zowie EC2-A</item>
+        <item>CM Storm Quickfire TK</item>
+        <item>HyperX Cloud Alpha</item>
+        <item>SS QcK+</item>
+        <item>BenQ XL2411Z</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>2.3</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1hzc92BX_5rCASMvABabjVhXQlKwUtPXN</item>
+    </string-array>
 
+
+    <!--NiP-->
+    <string-array name="Forest">
+        <item>Xtrfy M1</item>
+        <item>Xtrfy K2-RGB</item>
+        <item>Xtrfy H1</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2411T</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>3.5</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1Ch2LFSxtl7ltm_IV5r75lcGegBKspnQo</item>
+    </string-array>
+    <string-array name="Get_right">
+        <item>Xtrfy M1</item>
+        <item>Xtrfy K2-RGB</item>
+        <item>Xtrfy H1</item>
+        <item>SS QcK+</item>
+        <item>BenQ XL2411T</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>2.9</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1IEpwv0xSjiMr9mrselNJT_XBBxUgNIUt</item>
+    </string-array>
+    <string-array name="REZ">
+        <item>Zowie ZA12</item>
+        <item>Xtrfy K2-RGB</item>
+        <item>Xtrfy H1</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2430T</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>2.7</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=16slWvKAYFw1VOMaGd2tjibpvqvHzAfbs</item>
+    </string-array>
+    <string-array name="Xizt">
+        <item>Xtrfy M1</item>
+        <item>Xtrfy XG1-R</item>
+        <item>Xtrfy H1</item>
+        <item>Zowie G-SR</item>
+        <item>EIZO Foris FG2421</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>3</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=10nYGXknImFrifcXXBaXbiQkn-79rvRD7</item>
+    </string-array>
+    <string-array name="Draken">
+        <item>Xtrfy M1</item>
+        <item>Razor BlackWidow Ultimate</item>
+        <item>Xtrfy H1</item>
+        <item>HyperX Fury</item>
+        <item>BenQ XL2420T</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>1.2</item>
+        <item>700</item>
+        <item>https://drive.google.com/open?id=1CxYEvAwDUvVVCDGoxmK0Q2p7wggYgaF7</item>
+    </string-array>
+
+
+    <!--Envyus-->
+    <string-array name="Happy">
+        <item>Zowie EC2-A</item>
+        <item>SS 6Gv2</item>
+        <item>HyperX Revolver</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2411T</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>2.7</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=14Xox3S11J7XnIfIA1-xpidy0KyjKhkgY</item>
+    </string-array>
+    <string-array name="XMS">
+        <item>Zowie EC1-A</item>
+        <item>Tesoro Excalibur</item>
+        <item>HyperX Cloud</item>
+        <item>SS QcK+</item>
+        <item>BenQ XL2411Z</item>
+        <item>1280x800</item>
+        <item>Stretched</item>
+        <item>1.5</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1YjwDSt6BxZa4EMq-Cr4dcOes68ZPiQ2A</item>
+    </string-array>
+    <string-array name="RPK">
+        <item>Zowie FK1</item>
+        <item>SS 6Gv2</item>
+        <item>Sennheiser G4ME ZERO</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2411T</item>
+        <item>1280x1240</item>
+        <item>Stretched</item>
+        <item>1.85</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1X1UBsv9_-vd-S81IpPoZydFOzASrOl7Q</item>
+    </string-array>
+    <string-array name="Scream">
+        <item>FinalMouse Scream One</item>
+        <item>SS 6Gv2</item>
+        <item>HyperX Cloud II</item>
+        <item>Zowie G-SR</item>
+        <item>EIZO Foris FG2421</item>
+        <item>800x600</item>
+        <item>Black Bars</item>
+        <item>2.5</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1zRSM-laH9n09maoP1ruWcbdg_hH_TKth</item>
+    </string-array>
+    <string-array name="Sixer">
+        <item>Zowie ZA12</item>
+        <item>HyperX Alloy FPS</item>
+        <item>HyperX Cloud II</item>
+        <item>HyperX Fury</item>
+        <item>BenQ XL2411T</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>2.3</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1pgnhUkpEuf4MwjH77LfmKjUc-lAtQucg</item>
+    </string-array>
+
+
+    <!--VirtusPro-->
+    <string-array name="Pasha">
+        <item>SS Rival 100</item>
+        <item>SS 6Gv2</item>
+        <item>Qpad QH-90</item>
+        <item>Logitech G640</item>
+        <item>Zowie XL2540</item>
+        <item>1024x768</item>
+        <item>Black bars</item>
+        <item>2.2</item>
+        <item>400</item>]
+        <item>https://drive.google.com/open?id=1jTgMXRVdTHsPGYYzqpQK799-LpFBoS1J</item>
+    </string-array>
+    <string-array name="Neo">
+        <item>Zowie EC2-A</item>
+        <item>Zowie XL2540</item>
+        <item>Sennheiser G4ME ZERO</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2540</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>1.81</item>
+        <item>800</item>
+        <item>https://drive.google.com/open?id=1_lceNkqtGKJuXnsZQeqs8mUcPfQvFFb-</item>
+    </string-array>
+    <string-array name="Snax">
+        <item>Zowie FK2</item>
+        <item>SS Apex M500</item>
+        <item>SS G4ME ZERO</item>
+        <item>Zowie G-SR</item>
+        <item>Zowie XL2540</item>
+        <item>800x600</item>
+        <item>Black Bars</item>
+        <item>1.72</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1zXdJ6_jE-bVUnL2NKy0_YLq1lup3G3hS</item>
+    </string-array>
+    <string-array name="TAZ">
+        <item>Logitech G403</item>
+        <item>Xtrfy K2-RGB</item>
+        <item>HyperX Cloud II</item>
+        <item>Zowie G-SR</item>
+        <item>Zowie XL2540</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>1.7</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1UrTqUPvOFZQMAhQTHc_G4nz8AYwah9Ag</item>
+    </string-array>
+    <string-array name="Byali">
+        <item>Logitech G403</item>
+        <item>Logitech G810</item>
+        <item>SS G4ME ZERO</item>
+        <item>SS QcK+</item>
+        <item>Zowie XL2540</item>
+        <item>1280x960</item>
+        <item>Black Bars</item>
+        <item>0.75</item>
+        <item>800</item>
+        <item>https://drive.google.com/open?id=1S3RS6LQjzdHPDy-rnWnYG-gWmGP_gD78</item>
+    </string-array>
+
+
+    <!--Cloud9-->
+    <string-array name="Tarik">
+        <item>Logitech G400s</item>
+        <item>Logitech G Pro</item>
+        <item>Logitech G533</item>
+        <item>Zowie G-SR</item>
+        <item>ASUS VG248QE</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>1.1</item>
+        <item>800</item>
+        <item>https://drive.google.com/open?id=18DWfgElMizV3sVpRIpCwLjFYezOn5oPK</item>
+    </string-array>
+    <string-array name="Rush">
+        <item>Logitech G703</item>
+        <item>Logitech G433</item>
+        <item>HyperX Cloud II</item>
+        <item>SS QcK+</item>
+        <item>BenQ XL2420T</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>3.35</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=11jINMiFyZTpJPIb376f64DoZqEcA46Ik</item>
+    </string-array>
+    <string-array name="Skadoodle">
+        <item>Logitech G703</item>
+        <item>Logitech G810</item>
+        <item>Logitech G933</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2430T</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>1.4</item>
+        <item>800</item>
+        <item>https://drive.google.com/open?id=1D_67HxN7oMIKbftDNGK3Ev1Ox-41cIXU</item>
+    </string-array>
+    <string-array name="Stewie2K">
+        <item>Logitech G Pro</item>
+        <item>HyperX Alloy</item>
+        <item>Logitech G633</item>
+        <item>Zowie G-SR</item>
+        <item>BenQ XL2430T</item>
+        <item>1024x768</item>
+        <item>Black Bars</item>
+        <item>3</item>
+        <item>450</item>
+        <item>https://drive.google.com/open?id=1o-R2SkisCEugDNS_bfxU7_yZhYQHmbxR</item>
+    </string-array>
+    <string-array name="Autimatic">
+        <item>Logitech G403 Wireless</item>
+        <item>Logitech G710</item>
+        <item>Logitech G231</item>
+        <item>HyperX Fury</item>
+        <item>BenQ XL2420T</item>
+        <item>1024x768</item>
+        <item>Stretched</item>
+        <item>1.85</item>
+        <item>400</item>
+        <item>https://drive.google.com/open?id=1yYxRnPeazXqEMj5c6C3CnStq1bbKqLfd</item>
+    </string-array>
 </resources>

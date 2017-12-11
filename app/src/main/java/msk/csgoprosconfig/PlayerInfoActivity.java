@@ -1,18 +1,10 @@
 package msk.csgoprosconfig;
 
-import android.app.DownloadManager;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -20,12 +12,12 @@ import java.util.List;
 
 public class PlayerInfoActivity extends AppCompatActivity {
 
-    private ListView mListviewPlayerInfo;
-    private PlayerInfoAdapter mPlayerInfoAdapter;
     List<PlayerInfoModel> mPlayerInfoModelData;
-    private Toolbar mToolbarPlayerName;
     Integer playerPosi, teamPosi, playerImg;
     String playerName;
+    private ListView mListviewPlayerInfo;
+    private PlayerInfoAdapter mPlayerInfoAdapter;
+    private Toolbar mToolbarPlayerName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -182,29 +174,29 @@ public class PlayerInfoActivity extends AppCompatActivity {
             case 4: //G2
                 switch (playerPosi) {
                     case 0:
-                        String[] fallenData = getResources().getStringArray(R.array.Fallen);
-                        PlayerInfoModel fallen = new PlayerInfoModel(playerImg, fallenData[0], fallenData[1], fallenData[2], fallenData[3], fallenData[4], fallenData[5], fallenData[6], fallenData[7], fallenData[8],fallenData[9]);
-                        mPlayerInfoModelData.add(fallen);
+                        String[] shoxData = getResources().getStringArray(R.array.Shox);
+                        PlayerInfoModel shox = new PlayerInfoModel(playerImg, shoxData[0], shoxData[1], shoxData[2], shoxData[3], shoxData[4], shoxData[5], shoxData[6], shoxData[7], shoxData[8], shoxData[9]);
+                        mPlayerInfoModelData.add(shox);
                         break;
                     case 1:
-                        String[] ferData = getResources().getStringArray(R.array.Fer);
-                        PlayerInfoModel fer = new PlayerInfoModel(playerImg, ferData[0], ferData[1], ferData[2], ferData[3], ferData[4], ferData[5], ferData[6], ferData[7], ferData[8],ferData[9]);
-                        mPlayerInfoModelData.add(fer);
+                        String[] nbkData = getResources().getStringArray(R.array.NBK);
+                        PlayerInfoModel nbk = new PlayerInfoModel(playerImg, nbkData[0], nbkData[1], nbkData[2], nbkData[3], nbkData[4], nbkData[5], nbkData[6], nbkData[7], nbkData[8], nbkData[9]);
+                        mPlayerInfoModelData.add(nbk);
                         break;
                     case 2:
-                        String[] coldzeraData = getResources().getStringArray(R.array.Coldzera);
-                        PlayerInfoModel coldzera = new PlayerInfoModel(playerImg, coldzeraData[0], coldzeraData[1], coldzeraData[2], coldzeraData[3], coldzeraData[4], coldzeraData[5], coldzeraData[6], coldzeraData[7], coldzeraData[8],coldzeraData[9]);
-                        mPlayerInfoModelData.add(coldzera);
+                        String[] kennysData = getResources().getStringArray(R.array.KennyS);
+                        PlayerInfoModel kennys = new PlayerInfoModel(playerImg, kennysData[0], kennysData[1], kennysData[2], kennysData[3], kennysData[4], kennysData[5], kennysData[6], kennysData[7], kennysData[8], kennysData[9]);
+                        mPlayerInfoModelData.add(kennys);
                         break;
                     case 3:
-                        String[] tacoData = getResources().getStringArray(R.array.Taco);
-                        PlayerInfoModel taco = new PlayerInfoModel(playerImg, tacoData[0], tacoData[1], tacoData[2], tacoData[3], tacoData[4], tacoData[5], tacoData[6], tacoData[7], tacoData[8],tacoData[9]);
-                        mPlayerInfoModelData.add(taco);
+                        String[] apexData = getResources().getStringArray(R.array.Taco);
+                        PlayerInfoModel apex = new PlayerInfoModel(playerImg, apexData[0], apexData[1], apexData[2], apexData[3], apexData[4], apexData[5], apexData[6], apexData[7], apexData[8], apexData[9]);
+                        mPlayerInfoModelData.add(apex);
                         break;
                     case 4:
-                        String[] boltzData = getResources().getStringArray(R.array.Boltz);
-                        PlayerInfoModel boltz = new PlayerInfoModel(playerImg, boltzData[0], boltzData[1], boltzData[2], boltzData[3], boltzData[4], boltzData[5], boltzData[6], boltzData[7], boltzData[8],boltzData[9]);
-                        mPlayerInfoModelData.add(boltz);
+                        String[] bodyyData = getResources().getStringArray(R.array.Boltz);
+                        PlayerInfoModel bodyy = new PlayerInfoModel(playerImg, bodyyData[0], bodyyData[1], bodyyData[2], bodyyData[3], bodyyData[4], bodyyData[5], bodyyData[6], bodyyData[7], bodyyData[8], bodyyData[9]);
+                        mPlayerInfoModelData.add(bodyy);
                         break;
                 }
                 break;
