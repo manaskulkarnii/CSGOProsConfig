@@ -203,19 +203,19 @@ public class PlayerInfoActivity extends AppCompatActivity {
             case 5: //NiP
                 switch (playerPosi) {
                     case 0:
-                        String[] fallenData = getResources().getStringArray(R.array.Fallen);
-                        PlayerInfoModel fallen = new PlayerInfoModel(playerImg, fallenData[0], fallenData[1], fallenData[2], fallenData[3], fallenData[4], fallenData[5], fallenData[6], fallenData[7], fallenData[8],fallenData[9]);
-                        mPlayerInfoModelData.add(fallen);
+                        String[] forestData = getResources().getStringArray(R.array.Forest);
+                        PlayerInfoModel forest = new PlayerInfoModel(playerImg, forestData[0], forestData[1], forestData[2], forestData[3], forestData[4], forestData[5], forestData[6], forestData[7], forestData[8], forestData[9]);
+                        mPlayerInfoModelData.add(forest);
                         break;
                     case 1:
-                        String[] ferData = getResources().getStringArray(R.array.Fer);
-                        PlayerInfoModel fer = new PlayerInfoModel(playerImg, ferData[0], ferData[1], ferData[2], ferData[3], ferData[4], ferData[5], ferData[6], ferData[7], ferData[8],ferData[9]);
-                        mPlayerInfoModelData.add(fer);
+                        String[] get_rightData = getResources().getStringArray(R.array.Get_right);
+                        PlayerInfoModel get_right = new PlayerInfoModel(playerImg, get_rightData[0], get_rightData[1], get_rightData[2], get_rightData[3], get_rightData[4], get_rightData[5], get_rightData[6], get_rightData[7], get_rightData[8], get_rightData[9]);
+                        mPlayerInfoModelData.add(get_right);
                         break;
                     case 2:
-                        String[] coldzeraData = getResources().getStringArray(R.array.Coldzera);
-                        PlayerInfoModel coldzera = new PlayerInfoModel(playerImg, coldzeraData[0], coldzeraData[1], coldzeraData[2], coldzeraData[3], coldzeraData[4], coldzeraData[5], coldzeraData[6], coldzeraData[7], coldzeraData[8],coldzeraData[9]);
-                        mPlayerInfoModelData.add(coldzera);
+                        String[] rezData = getResources().getStringArray(R.array.Coldzera);
+                        PlayerInfoModel rez = new PlayerInfoModel(playerImg, rezData[0], rezData[1], rezData[2], rezData[3], rezData[4], rezData[5], rezData[6], rezData[7], rezData[8], rezData[9]);
+                        mPlayerInfoModelData.add(rez);
                         break;
                     case 3:
                         String[] tacoData = getResources().getStringArray(R.array.Taco);
