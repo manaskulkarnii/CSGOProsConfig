@@ -213,106 +213,106 @@ public class PlayerInfoActivity extends AppCompatActivity {
                         mPlayerInfoModelData.add(get_right);
                         break;
                     case 2:
-                        String[] rezData = getResources().getStringArray(R.array.Coldzera);
+                        String[] rezData = getResources().getStringArray(R.array.REZ);
                         PlayerInfoModel rez = new PlayerInfoModel(playerImg, rezData[0], rezData[1], rezData[2], rezData[3], rezData[4], rezData[5], rezData[6], rezData[7], rezData[8], rezData[9]);
                         mPlayerInfoModelData.add(rez);
                         break;
                     case 3:
-                        String[] tacoData = getResources().getStringArray(R.array.Taco);
-                        PlayerInfoModel taco = new PlayerInfoModel(playerImg, tacoData[0], tacoData[1], tacoData[2], tacoData[3], tacoData[4], tacoData[5], tacoData[6], tacoData[7], tacoData[8],tacoData[9]);
-                        mPlayerInfoModelData.add(taco);
+                        String[] xiztData = getResources().getStringArray(R.array.Xizt);
+                        PlayerInfoModel xizt = new PlayerInfoModel(playerImg, xiztData[0], xiztData[1], xiztData[2], xiztData[3], xiztData[4], xiztData[5], xiztData[6], xiztData[7], xiztData[8], xiztData[9]);
+                        mPlayerInfoModelData.add(xizt);
                         break;
                     case 4:
-                        String[] boltzData = getResources().getStringArray(R.array.Boltz);
-                        PlayerInfoModel boltz = new PlayerInfoModel(playerImg, boltzData[0], boltzData[1], boltzData[2], boltzData[3], boltzData[4], boltzData[5], boltzData[6], boltzData[7], boltzData[8],boltzData[9]);
-                        mPlayerInfoModelData.add(boltz);
+                        String[] drakenData = getResources().getStringArray(R.array.Draken);
+                        PlayerInfoModel draken = new PlayerInfoModel(playerImg, drakenData[0], drakenData[1], drakenData[2], drakenData[3], drakenData[4], drakenData[5], drakenData[6], drakenData[7], drakenData[8], drakenData[9]);
+                        mPlayerInfoModelData.add(draken);
                         break;
                 }
                 break;
             case 6: //EnVyUs
                 switch (playerPosi) {
                     case 0:
-                        String[] fallenData = getResources().getStringArray(R.array.Fallen);
-                        PlayerInfoModel fallen = new PlayerInfoModel(playerImg, fallenData[0], fallenData[1], fallenData[2], fallenData[3], fallenData[4], fallenData[5], fallenData[6], fallenData[7], fallenData[8],fallenData[9]);
-                        mPlayerInfoModelData.add(fallen);
+                        String[] happyData = getResources().getStringArray(R.array.Happy);
+                        PlayerInfoModel happy = new PlayerInfoModel(playerImg, happyData[0], happyData[1], happyData[2], happyData[3], happyData[4], happyData[5], happyData[6], happyData[7], happyData[8], happyData[9]);
+                        mPlayerInfoModelData.add(happy);
                         break;
                     case 1:
-                        String[] ferData = getResources().getStringArray(R.array.Fer);
-                        PlayerInfoModel fer = new PlayerInfoModel(playerImg, ferData[0], ferData[1], ferData[2], ferData[3], ferData[4], ferData[5], ferData[6], ferData[7], ferData[8],ferData[9]);
-                        mPlayerInfoModelData.add(fer);
+                        String[] xmsData = getResources().getStringArray(R.array.XMS);
+                        PlayerInfoModel xms = new PlayerInfoModel(playerImg, xmsData[0], xmsData[1], xmsData[2], xmsData[3], xmsData[4], xmsData[5], xmsData[6], xmsData[7], xmsData[8], xmsData[9]);
+                        mPlayerInfoModelData.add(xms);
                         break;
                     case 2:
-                        String[] coldzeraData = getResources().getStringArray(R.array.Coldzera);
-                        PlayerInfoModel coldzera = new PlayerInfoModel(playerImg, coldzeraData[0], coldzeraData[1], coldzeraData[2], coldzeraData[3], coldzeraData[4], coldzeraData[5], coldzeraData[6], coldzeraData[7], coldzeraData[8],coldzeraData[9]);
-                        mPlayerInfoModelData.add(coldzera);
+                        String[] rpkData = getResources().getStringArray(R.array.RPK);
+                        PlayerInfoModel rpk = new PlayerInfoModel(playerImg, rpkData[0], rpkData[1], rpkData[2], rpkData[3], rpkData[4], rpkData[5], rpkData[6], rpkData[7], rpkData[8], rpkData[9]);
+                        mPlayerInfoModelData.add(rpk);
                         break;
                     case 3:
-                        String[] tacoData = getResources().getStringArray(R.array.Taco);
-                        PlayerInfoModel taco = new PlayerInfoModel(playerImg, tacoData[0], tacoData[1], tacoData[2], tacoData[3], tacoData[4], tacoData[5], tacoData[6], tacoData[7], tacoData[8],tacoData[9]);
-                        mPlayerInfoModelData.add(taco);
+                        String[] screamData = getResources().getStringArray(R.array.Scream);
+                        PlayerInfoModel scream = new PlayerInfoModel(playerImg, screamData[0], screamData[1], screamData[2], screamData[3], screamData[4], screamData[5], screamData[6], screamData[7], screamData[8], screamData[9]);
+                        mPlayerInfoModelData.add(scream);
                         break;
                     case 4:
-                        String[] felpsData = getResources().getStringArray(R.array.Boltz);
-                        PlayerInfoModel felps = new PlayerInfoModel(playerImg, felpsData[0], felpsData[1], felpsData[2], felpsData[3], felpsData[4], felpsData[5], felpsData[6], felpsData[7], felpsData[8],felpsData[9]);
-                        mPlayerInfoModelData.add(felps);
+                        String[] sixerData = getResources().getStringArray(R.array.Sixer);
+                        PlayerInfoModel sixer = new PlayerInfoModel(playerImg, sixerData[0], sixerData[1], sixerData[2], sixerData[3], sixerData[4], sixerData[5], sixerData[6], sixerData[7], sixerData[8], sixerData[9]);
+                        mPlayerInfoModelData.add(sixer);
                         break;
                 }
                 break;
             case 7: //Virtus.Pro
                 switch (playerPosi) {
                     case 0:
-                        String[] fallenData = getResources().getStringArray(R.array.Fallen);
-                        PlayerInfoModel fallen = new PlayerInfoModel(playerImg, fallenData[0], fallenData[1], fallenData[2], fallenData[3], fallenData[4], fallenData[5], fallenData[6], fallenData[7], fallenData[8],fallenData[9]);
-                        mPlayerInfoModelData.add(fallen);
+                        String[] pashaData = getResources().getStringArray(R.array.Pasha);
+                        PlayerInfoModel pasha = new PlayerInfoModel(playerImg, pashaData[0], pashaData[1], pashaData[2], pashaData[3], pashaData[4], pashaData[5], pashaData[6], pashaData[7], pashaData[8], pashaData[9]);
+                        mPlayerInfoModelData.add(pasha);
                         break;
                     case 1:
-                        String[] ferData = getResources().getStringArray(R.array.Fer);
-                        PlayerInfoModel fer = new PlayerInfoModel(playerImg, ferData[0], ferData[1], ferData[2], ferData[3], ferData[4], ferData[5], ferData[6], ferData[7], ferData[8],ferData[9]);
-                        mPlayerInfoModelData.add(fer);
+                        String[] neoData = getResources().getStringArray(R.array.Neo);
+                        PlayerInfoModel neo = new PlayerInfoModel(playerImg, neoData[0], neoData[1], neoData[2], neoData[3], neoData[4], neoData[5], neoData[6], neoData[7], neoData[8], neoData[9]);
+                        mPlayerInfoModelData.add(neo);
                         break;
                     case 2:
-                        String[] coldzeraData = getResources().getStringArray(R.array.Coldzera);
-                        PlayerInfoModel coldzera = new PlayerInfoModel(playerImg, coldzeraData[0], coldzeraData[1], coldzeraData[2], coldzeraData[3], coldzeraData[4], coldzeraData[5], coldzeraData[6], coldzeraData[7], coldzeraData[8],coldzeraData[9]);
-                        mPlayerInfoModelData.add(coldzera);
+                        String[] snaxData = getResources().getStringArray(R.array.Snax);
+                        PlayerInfoModel snax = new PlayerInfoModel(playerImg, snaxData[0], snaxData[1], snaxData[2], snaxData[3], snaxData[4], snaxData[5], snaxData[6], snaxData[7], snaxData[8], snaxData[9]);
+                        mPlayerInfoModelData.add(snax);
                         break;
                     case 3:
-                        String[] tacoData = getResources().getStringArray(R.array.Taco);
-                        PlayerInfoModel taco = new PlayerInfoModel(playerImg, tacoData[0], tacoData[1], tacoData[2], tacoData[3], tacoData[4], tacoData[5], tacoData[6], tacoData[7], tacoData[8],tacoData[9]);
-                        mPlayerInfoModelData.add(taco);
+                        String[] tazData = getResources().getStringArray(R.array.TAZ);
+                        PlayerInfoModel taz = new PlayerInfoModel(playerImg, tazData[0], tazData[1], tazData[2], tazData[3], tazData[4], tazData[5], tazData[6], tazData[7], tazData[8], tazData[9]);
+                        mPlayerInfoModelData.add(taz);
                         break;
                     case 4:
-                        String[] felpsData = getResources().getStringArray(R.array.Boltz);
-                        PlayerInfoModel felps = new PlayerInfoModel(playerImg, felpsData[0], felpsData[1], felpsData[2], felpsData[3], felpsData[4], felpsData[5], felpsData[6], felpsData[7], felpsData[8],felpsData[9]);
-                        mPlayerInfoModelData.add(felps);
+                        String[] byaliData = getResources().getStringArray(R.array.Byali);
+                        PlayerInfoModel byali = new PlayerInfoModel(playerImg, byaliData[0], byaliData[1], byaliData[2], byaliData[3], byaliData[4], byaliData[5], byaliData[6], byaliData[7], byaliData[8], byaliData[9]);
+                        mPlayerInfoModelData.add(byali);
                         break;
                 }
                 break;
             case 8: //Cloud9
                 switch (playerPosi) {
                     case 0:
-                        String[] fallenData = getResources().getStringArray(R.array.Fallen);
-                        PlayerInfoModel fallen = new PlayerInfoModel(playerImg, fallenData[0], fallenData[1], fallenData[2], fallenData[3], fallenData[4], fallenData[5], fallenData[6], fallenData[7], fallenData[8],fallenData[9]);
-                        mPlayerInfoModelData.add(fallen);
+                        String[] tarikData = getResources().getStringArray(R.array.Tarik);
+                        PlayerInfoModel tarik = new PlayerInfoModel(playerImg, tarikData[0], tarikData[1], tarikData[2], tarikData[3], tarikData[4], tarikData[5], tarikData[6], tarikData[7], tarikData[8], tarikData[9]);
+                        mPlayerInfoModelData.add(tarik);
                         break;
                     case 1:
-                        String[] ferData = getResources().getStringArray(R.array.Fer);
-                        PlayerInfoModel fer = new PlayerInfoModel(playerImg, ferData[0], ferData[1], ferData[2], ferData[3], ferData[4], ferData[5], ferData[6], ferData[7], ferData[8],ferData[9]);
-                        mPlayerInfoModelData.add(fer);
+                        String[] rushData = getResources().getStringArray(R.array.Rush);
+                        PlayerInfoModel rush = new PlayerInfoModel(playerImg, rushData[0], rushData[1], rushData[2], rushData[3], rushData[4], rushData[5], rushData[6], rushData[7], rushData[8], rushData[9]);
+                        mPlayerInfoModelData.add(rush);
                         break;
                     case 2:
-                        String[] coldzeraData = getResources().getStringArray(R.array.Coldzera);
-                        PlayerInfoModel coldzera = new PlayerInfoModel(playerImg, coldzeraData[0], coldzeraData[1], coldzeraData[2], coldzeraData[3], coldzeraData[4], coldzeraData[5], coldzeraData[6], coldzeraData[7], coldzeraData[8],coldzeraData[9]);
-                        mPlayerInfoModelData.add(coldzera);
+                        String[] skadoodleData = getResources().getStringArray(R.array.Skadoodle);
+                        PlayerInfoModel skadoodle = new PlayerInfoModel(playerImg, skadoodleData[0], skadoodleData[1], skadoodleData[2], skadoodleData[3], skadoodleData[4], skadoodleData[5], skadoodleData[6], skadoodleData[7], skadoodleData[8], skadoodleData[9]);
+                        mPlayerInfoModelData.add(skadoodle);
                         break;
                     case 3:
-                        String[] tacoData = getResources().getStringArray(R.array.Taco);
-                        PlayerInfoModel taco = new PlayerInfoModel(playerImg, tacoData[0], tacoData[1], tacoData[2], tacoData[3], tacoData[4], tacoData[5], tacoData[6], tacoData[7], tacoData[8],tacoData[9]);
-                        mPlayerInfoModelData.add(taco);
+                        String[] stewie2KData = getResources().getStringArray(R.array.Stewie2K);
+                        PlayerInfoModel stewie2K = new PlayerInfoModel(playerImg, stewie2KData[0], stewie2KData[1], stewie2KData[2], stewie2KData[3], stewie2KData[4], stewie2KData[5], stewie2KData[6], stewie2KData[7], stewie2KData[8], stewie2KData[9]);
+                        mPlayerInfoModelData.add(stewie2K);
                         break;
                     case 4:
-                        String[] felpsData = getResources().getStringArray(R.array.Boltz);
-                        PlayerInfoModel felps = new PlayerInfoModel(playerImg, felpsData[0], felpsData[1], felpsData[2], felpsData[3], felpsData[4], felpsData[5], felpsData[6], felpsData[7], felpsData[8],felpsData[9]);
-                        mPlayerInfoModelData.add(felps);
+                        String[] autimaticData = getResources().getStringArray(R.array.Autimatic);
+                        PlayerInfoModel autimatic = new PlayerInfoModel(playerImg, autimaticData[0], autimaticData[1], autimaticData[2], autimaticData[3], autimaticData[4], autimaticData[5], autimaticData[6], autimaticData[7], autimaticData[8], autimaticData[9]);
+                        mPlayerInfoModelData.add(autimatic);
                         break;
                 }
                 break;

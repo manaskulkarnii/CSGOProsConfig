@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">CS:GO Config\'s</string>
     <string name="team_sk">SK</string>
-    <string name="Support_tradeInfoText">This app is free for download and totally ads free. You can support the developer by donating your extra skins on the trade-link mentioned below.</string>
-    <string name="Support_tradeLinkText">Press and hold to copy the trade link:</string>
     <string name="Support_tradeButton">Trade Link</string>
     <string-array name="teamName">
         <item>SK</item>

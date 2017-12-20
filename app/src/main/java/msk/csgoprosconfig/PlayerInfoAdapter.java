@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -28,6 +27,7 @@ public class PlayerInfoAdapter extends ArrayAdapter<PlayerInfoModel> {
     List<PlayerInfoModel> mListPlayerInfo;
     DownloadManager manager;
     Boolean result;
+    String playerName;
 
     public PlayerInfoAdapter(@NonNull Context context, @NonNull List<PlayerInfoModel> data) {
         super(context, R.layout.activity_player_info_adapter);
@@ -37,6 +37,22 @@ public class PlayerInfoAdapter extends ArrayAdapter<PlayerInfoModel> {
         manager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
         result=isDownloadManagerAvailable(context.getApplicationContext());
 
+    }
+
+    public static boolean isDownloadManagerAvailable(Context context) {
+        try {
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) {
+                return false;
+            }
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_LAUNCHER);
+            intent.setClassName("com.android.providers.downloads.ui", "com.android.providers.downloads.ui.DownloadList");
+            List list = context.getPackageManager().queryIntentActivities(intent,
+                    PackageManager.MATCH_DEFAULT_ONLY);
+            return list.size() > 0;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     @Override
@@ -92,7 +108,7 @@ public class PlayerInfoAdapter extends ArrayAdapter<PlayerInfoModel> {
     public void downloadFile(String linkVariable){
         String DownloadUrl = linkVariable;
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(DownloadUrl));
-        request.setDescription("config pdf file for testing");   //appears the same in Notification bar while downloading
+        request.setDescription("Config file downloading");   //appears the same in Notification bar while downloading
         request.setTitle("config.cfg");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             request.allowScanningByMediaScanner();
@@ -103,22 +119,6 @@ public class PlayerInfoAdapter extends ArrayAdapter<PlayerInfoModel> {
         // get download service and enqueue file
 
         manager.enqueue(request);
-    }
-
-    public static boolean isDownloadManagerAvailable(Context context) {
-        try {
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) {
-                return false;
-            }
-            Intent intent = new Intent(Intent.ACTION_MAIN);
-            intent.addCategory(Intent.CATEGORY_LAUNCHER);
-            intent.setClassName("com.android.providers.downloads.ui","com.android.providers.downloads.ui.DownloadList");
-            List list = context.getPackageManager().queryIntentActivities(intent,
-                    PackageManager.MATCH_DEFAULT_ONLY);
-            return list.size() > 0;
-        } catch (Exception e) {
-            return false;
-        }
     }
 
 

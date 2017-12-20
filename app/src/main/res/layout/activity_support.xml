@@ -1,41 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:background="#eaf5f8">
+    android:layout_height="match_parent"
+    android:background="@drawable/support_bg2"
+    android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/idSupportActivity_toolbar"
-        android:background="?attr/colorPrimary"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <TextView
-        android:id="@+id/idTradeInfo"
+        android:id="@+id/support_txt_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Support_tradeInfoText"
-        android:padding="10dp"
-        android:textColor="#000"
-        android:textSize="18sp"/>
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:maxLines="1"
+        android:text="Want to play with me? Add me on Steam!"
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/idProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/support_txt_1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Profile"
+        android:textStyle="bold" />
+
     <TextView
-        android:id="@+id/idTradeLink"
+        android:id="@+id/support_txt_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Support_tradeLinkText"
-        android:padding="10dp"
-        android:textColor="#000"
-        android:textSize="18sp"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="casual"
+        android:text="Have extra skins? Show your support!"
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
     <Button
         android:id="@+id/idTradeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
         android:text="@string/Support_tradeButton"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"/>
+        android:textStyle="bold" />
 
-</LinearLayout>
+</RelativeLayout>
